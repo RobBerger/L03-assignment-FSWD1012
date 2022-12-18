@@ -9,3 +9,7 @@ function increment() {
     var counterParent = document.getElementById('counterLogs');
     counterParent.appendChild(counterLogsP);
 }
+
+function decrement() {
+    
+}

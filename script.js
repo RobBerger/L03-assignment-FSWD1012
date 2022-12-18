@@ -21,3 +21,7 @@ function decrement() {
     var counterParent = document.getElementById('counterLogs');
     counterParent.appendChild(counterLogsP);
 }
+
+function reset() {
+    
+}

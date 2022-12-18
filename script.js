@@ -1,4 +1,5 @@
 function increment() {
-    var currentCount = document.getElementById('counter').innerHTML;
-    console.log(currentCount);
+    var counter = document.getElementById('counter').innerHTML;
+    var currentCount = parseInt(counter);
+    document.getElementById('counter').innerHTML = currentCount + 1;
 }
